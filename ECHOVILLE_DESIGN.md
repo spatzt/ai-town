@@ -643,6 +643,119 @@ When apartment-management gameplay is added, support:
 
 The apartment building is the seed of EchoVille, not a disposable tutorial map. Town expansion should grow outward from the routines, relationships, and systems already proven inside the building.
 
+## Master location inventory from prior EchoVille work
+
+This catalog intentionally includes current locations, Redbean experiments, older planning, prototype locations, and broader Echofield spaces. Inclusion here does **not** make a place current canon. The point is to preserve useful geography before we choose the eventual Stardew-like town layout.
+
+| Location / location family | Source/status | Routine purpose | Character association / notes |
+| --- | --- | --- | --- |
+| **Apartment Building** | **CURRENT BASE** | home hub, daily-life nucleus | First playable EchoVille. Spatz manages the building. |
+| Spatz's Apartment | **CURRENT BASE** | home/private retreat | Spatz |
+| Chad's Apartment | **CURRENT BASE** | home/private retreat | Chad |
+| Skylar's Apartment | **CURRENT BASE** | home/private retreat | Skylar |
+| Kevin's Apartment | **CURRENT BASE** | home/private retreat | Kevin |
+| Lobby / Hallways / Common Seating | **CURRENT BASE** | crossings, casual encounters, waiting | Shared |
+| Building Coffee Shop | **CURRENT BASE** | work, food, socializing | Kevin's first work anchor |
+| Building Gym | **CURRENT BASE** | training, exercise, social encounters | Chad's first anchor |
+| Shared Computer Space | **CURRENT BASE** | research, computers, quiet work | Skylar's first anchor |
+| Apartment Manager Space / Building Tasks | **CURRENT BASE** | management, maintenance hooks | Spatz |
+| **The Wired Bean** | **FUTURE / WELL-ESTABLISHED LORE** | café, work, meals, social hub | Kevin; Redbean exterior/interior work and Terrarium prototype anchor |
+| **EchoVille Library / Digital Archive** | **FUTURE / WELL-ESTABLISHED LORE** | work, research, records, computers, quiet socializing | Skylar |
+| **Training Hall** | **FUTURE / WELL-ESTABLISHED LORE** | work, sparring, exercise, teaching | Chad |
+| **EchoVille Dispatch** | **FUTURE CANDIDATE / ESTABLISHED CHARACTER ROLE** | courier/logistics, deliveries, errands | Kyle |
+| **Workshop Cottage / EchoVille Repair Garage** | **FUTURE CANDIDATE / REDBEAN THREAD** | repairs, mechanic work, tools, deliveries | Kenneth; two names/versions of the same general functional thread, final form OPEN |
+| **Town Square** | **TERRARIUM PROTOTYPE** | neutral gathering/crossroads | One of the three literal Terrarium 0.2 locations |
+| **Guidepost Square** | **OLDER HUB CONCEPT** | noticeboard, events, benches, NPC encounters | Possible civic-center predecessor/alternative |
+| **Central Green / Flower Garden** | **REDBEAN EXPERIMENT** | outdoor leisure, strolling, socializing | Could become a civic green if retained |
+| **Fountain Park** | **REDBEAN EXPERIMENT** | outdoor leisure, meetings, dates, downtime | Candidate public park |
+| **Market Row** | **OLDER / CANDIDATE DISTRICT** | shopping, errands, work routes | Useful district concept |
+| **EchoVille Marketplace** | **OLDER ECONOMY/SHOP CONCEPT** | shopping/economy interface | Could be physicalized, abstracted, or folded into Market Row |
+| **General Store** | **OLDER CANDIDATE** | groceries, supplies, routine errands | Strong Stardew-style routine utility if revived |
+| **Residential Lane / Suburban Homes** | **REDBEAN / OLDER CANDIDATE** | housing expansion, visits, home routines | Useful after the apartment building is no longer the only housing |
+| **Town Edge** | **OLDER CANDIDATE** | transition space, arrivals, exploration | Good boundary/expansion concept |
+| **Willow Grove** | **OLDER ECHOFIELD/ECHOVILLE CONCEPT** | nature, quiet time, walks | Candidate edge/nature location |
+| **Trails** | **REDBEAN EXPERIMENT** | walking, solitude, travel links | Final geography OPEN |
+| **Abandoned Amusement Park** | **WELL-ESTABLISHED FUTURE LOCATION** | exploration, nostalgia, private talks, restoration/mystery | Terrarium anchor; future Annex material |
+| **Old Fairground** | **REDBEAN PREDECESSOR/VARIANT** | same general abandoned-fairground niche | Treat as an earlier naming/design thread for the amusement-park concept unless deliberately separated |
+| **Annex** | **MYSTERY / FUTURE STORY SPACE** | unusual exploration/story events | Not an ordinary everyday destination; exact nature deliberately unresolved |
+| **Spatz's Base / Home** | **REDBEAN PREDECESSOR** | home, art, computers, hobby space | Function now largely absorbed by Spatz's apartment for the first slice |
+| **Quarry Lake / Dockhouse** | **ARCHIVE / SUPERSEDED** | former fishing/lakekeeper/dock routine concept | **Not current EchoVille canon. Do not reintroduce automatically.** |
+| Dock / lake trail material | **ARCHIVE WITH QUARRY-LAKE THREAD** | former outdoor routine space | Reuse only if deliberately redesigned away from Quarry Lake |
+| **The Frame / Hollow Frame house** | **BROADER ECHOFIELD, NOT AUTOMATICALLY ECHOVILLE** | nexus/home hub | Separate broader-project location; contains living room/fireplace, kitchen, smoke room, computer lab, gym, portal door, porch/lake, bedrooms, Kyle's balcony/nest |
+| **Frame Greenhouse** | **BROADER ECHOFIELD** | gardening/growing/social routines | Kevin/Mateo association in Frame lore |
+| **Church of Iris / Church Relit spaces** | **BROADER ALTERIA/ECHOFIELD LORE** | spiritual/story location | Not an ordinary EchoVille town building unless intentionally imported later |
+
+### Overlapping location families to resolve later
+
+Several experiments solve the same routine need. We should not automatically keep every version:
+
+- **Civic center:** Town Square / Guidepost Square / Central Green / Fountain Park
+- **Commerce:** Market Row / Marketplace / General Store
+- **Kenneth work anchor:** Workshop Cottage / EchoVille Repair Garage
+- **Home base:** Spatz's Base / Spatz's Apartment
+- **Abandoned fairground:** Old Fairground / Abandoned Amusement Park
+
+When town-building begins, choose the smallest set that produces strong routines and recognizable geography.
+
+## What AI Town contributes to the location system
+
+The stock AI Town framework does **not** give us EchoVille canon locations worth preserving. Its value is structural:
+
+- tile map rendering
+- obstacle/collision layers
+- pathfinding between coordinates
+- autonomous movement
+- activity state
+- agents physically walking to conversation partners
+- persistent world/player state
+
+EchoVille must add the semantic layer that says a coordinate range is a café, apartment, gym, library, shop, park, workplace, private home, etc.
+
+## Stardew-like routine target
+
+The goal is **predictable life with room for AI variation**, not random wandering and not rigid scripting.
+
+Each resident should eventually have:
+
+- **Home:** where they begin/end most days and retreat for privacy
+- **Primary anchor:** job, responsibility, or strongest recurring destination
+- **Secondary anchors:** hobby/work/social spaces they favor
+- **Errand pool:** shops/services they visit when relevant
+- **Social pool:** places where they intentionally spend time with others
+- **Quiet pool:** places they choose for solitude
+- **Special/event locations:** places used only when a condition, story, relationship, or event makes sense
+
+A routine should be built from **schedule windows + bounded choices**. Example: Kevin can reliably be found at work during a work block, but his break may resolve to the lobby, a table in the café, another resident, or home depending on state.
+
+Future routine conditions can include:
+- time of day
+- day of week
+- work/off day
+- location opening hours
+- current task
+- weather once outdoor town play matters
+- mood/state
+- recent memories
+- relationship context
+- invitations
+- town events
+- quests/scenarios
+
+The player should be able to learn residents' habits well enough to think, "Skylar is probably at the computer space right now," while still occasionally being surprised by a believable deviation.
+
+### Initial routine skeleton
+
+| Resident | Home | First primary anchor | Later town anchor | Natural secondary spaces |
+| --- | --- | --- | --- | --- |
+| **Spatz** | Spatz's Apartment | apartment-manager/common areas | broader manager/town responsibilities as designed | coffee shop, computer space, other shared areas |
+| **Kevin** | Kevin's Apartment | Building Coffee Shop | The Wired Bean | common seating, other residents, home |
+| **Skylar** | Skylar's Apartment | Shared Computer Space | EchoVille Library / Digital Archive | coffee shop, common seating, home |
+| **Chad** | Chad's Apartment | Building Gym | Training Hall | coffee shop, common areas, home |
+| **Kyle** | future home | — | EchoVille Dispatch | errands, civic/commercial spaces; final routine later |
+| **Kenneth** | future home | — | Workshop Cottage / Repair Garage | commercial/social spaces; final routine later |
+| **Brae** | unresolved | — | unresolved | Do not assign an old Quarry Lake job by default; his outsider routine should be designed from current canon later |
+| **Candice** | unresolved | — | unresolved | Abandoned Amusement Park is an arrival/story location, not a current job assignment |
+
 ## Expansion philosophy
 
 - Expand only when a new location creates new behavior, relationships, work, exploration, or story possibilities.
