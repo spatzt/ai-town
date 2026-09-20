@@ -190,7 +190,7 @@ AI Town's vector retrieval is useful. EchoVille's factual/subjective separation 
 - Thoughtful, observant, analytical, curious, approachable, quietly stubborn.
 - Strong interest in computers, research, archives, and inconsistencies.
 - Close friend-rival relationship with Chad.
-- Work anchor: EchoVille Library.
+- Work anchor: EchoVille Library / Academy / Digital Archive.
 
 ## Kevin
 
@@ -311,7 +311,7 @@ Examples of apartment inventory:
 
 These remain EchoVille destinations for later growth rather than first-map requirements:
 - The Wired Bean as a larger standalone café
-- EchoVille Library / digital archive
+- EchoVille Library / Academy / digital archive
 - Training Hall
 - Forest Outskirts / trail network
 - Abandoned Amusement Park
@@ -661,7 +661,7 @@ This catalog intentionally includes current locations, Redbean experiments, olde
 | Shared Computer Space | **CURRENT BASE** | research, computers, quiet work | Skylar's first anchor |
 | Apartment Manager Space / Building Tasks | **CURRENT BASE** | management, maintenance hooks | Spatz |
 | **The Wired Bean** | **FUTURE / WELL-ESTABLISHED LORE** | café, work, meals, social hub | Kevin; Redbean exterior/interior work and Terrarium prototype anchor |
-| **EchoVille Library / Digital Archive** | **FUTURE / WELL-ESTABLISHED LORE** | work, research, records, computers, quiet socializing | Skylar |
+| **EchoVille Library / Academy / Digital Archive** | **FUTURE / WELL-ESTABLISHED LORE** | work, research, study, records, computers, quiet socializing | Skylar; doubles as RPG Life's Academy/study hub |
 | **Training Hall** | **FUTURE / WELL-ESTABLISHED LORE** | work, sparring, exercise, teaching | Chad |
 | **EchoVille Dispatch** | **FUTURE CANDIDATE / ESTABLISHED CHARACTER ROLE** | courier/logistics, deliveries, errands | Kyle |
 | **Workshop Cottage / EchoVille Repair Garage** | **FUTURE CANDIDATE / REDBEAN THREAD** | repairs, mechanic work, tools, deliveries | Kenneth; two names/versions of the same general functional thread, final form OPEN |
@@ -698,6 +698,159 @@ Several experiments solve the same routine need. We should not automatically kee
 - **Abandoned fairground:** Old Fairground / Abandoned Amusement Park
 
 When town-building begins, choose the smallest set that produces strong routines and recognizable geography.
+
+## Town point master plan — post-apartment EchoVille
+
+This is the current concept pass for the **walkable, Stardew-like AI town** that grows out of Apartment Mode. The goal is not to fill every tile with a building. The goal is to create enough destinations, micro-destinations, and routine loops that residents have believable reasons to leave home, cross paths, work, rest, study, shop, and wander.
+
+### Town districts / map bands
+
+**1. Apartment Quarter — first restored foothold**
+- Apartment Building
+- residents' private apartments
+- common lobby / seating
+- building gym
+- shared computer room
+- apartment-manager space
+- small courtyard / pet-care corner
+- nearby laundry / wash room or washhouse
+
+**2. Civic Heart — everyday social center**
+- **Guidepost Square** — main crossroads and event space
+- **Central Green / Fountain Park** — merged public green rather than a second competing square
+- **The Wired Bean** — standalone café with its signature skylight
+- **EchoVille Library / Academy / Digital Archive** — Skylar's work anchor and the town's learning/study hub
+- small benches, fountain edges, gazebo/picnic shelter, noticeboard, clock/bell marker
+
+**3. Market & Work Row — errands and jobs**
+- **Market Row**
+- **General Store**
+- rotating market stalls / cart spaces
+- **Workshop Cottage / Repair Garage**
+- **EchoVille Dispatch**
+- **Training Hall**
+- small creator/art studio or restored atelier
+- material/tool depot
+- donation / reuse shed
+
+**4. Residential Lane — town growing outward**
+- additional homes
+- small yards / gardens
+- mailboxes
+- shared laundry line or utility point where appropriate
+- neighborhood seating / tiny pocket green
+
+**5. Town Edge — arrival and transition**
+- **Town Edge / arrival stop**
+- bus shelter or other modest transport point if outside travel remains part of the lore
+- parcel/mail kiosk
+- trailhead map / old wayfinding markers
+- restoration signs showing which roads have reopened
+
+**6. Forest Outskirts — edge life**
+- Forest Outskirts
+- Brae's residence
+- Willow Grove / trail network if retained
+- foraging / gathering spots
+- old walls, foundations, markers, and swallowed roads
+
+**7. Rabbit-hole layer — discovered rather than routine-first**
+- Old Amusement Park
+- The Annex
+- Service Tunnels
+- Old Stone Tower + Rooftop Garden
+- future AI-generated minor sites that stay inside canon constraints
+
+### Small structures that make the town feel inhabited
+
+These do not all need full interiors. Many should be semantic points that NPCs can use for short routine stops.
+
+| Small point | Town-life use | Simulation / RPG use |
+| --- | --- | --- |
+| **Guidepost Quest Board** | notices, flyers, event postings, repair requests | physical face of the RPG Life Quest Board; NPCs can also post local requests |
+| **Town Clock / Bell Marker** | recognizable meeting point and routine landmark | schedules, events, "meet me at the clock" behavior |
+| **Mail / Parcel Kiosk** | deliveries and everyday errands | supports Kyle/Dispatch routes, invitations, found letters, item delivery |
+| **Laundry / Washhouse** | mundane recurring errand and chance encounters | excellent low-stakes routine space; can support home-care quest flavor |
+| **Gazebo / Picnic Shelter** | dates, reading, conversation, weather shelter | social invitation destination |
+| **Community Garden Beds** | tending, harvesting, sitting, helping | ordinary gardening routines without using the special rooftop garden |
+| **Market Stalls** | variable vendors, food, seasonal activity | rotating routine destinations without requiring permanent shops |
+| **Creator Atelier / Art Shed** | drawing, making, displaying work | physical EchoVille face of RPG Life's Creator Studio |
+| **Material Depot / Tool Shed** | repair supplies and restoration staging | Kenneth/Spatz repair loops; town restoration inventory |
+| **Donation / Reuse Shed** | swap table, unwanted items, salvage | decluttering/home quests can create useful in-world outcomes |
+| **Restoration Ledger Desk** | records of reopened buildings and shared repairs | future building/town budget interface without making Spatz mayor |
+| **Memorial / History Plaques** | small reminders of prior settlement layers | whispers, lore, conflicting dates/names, archive hooks |
+| **Trailhead Board** | maps, warnings, trail conditions | Forest Outskirts routine and exploration entry point |
+| **Benches / small seating nodes** | idle time, waiting, conversations | give NPCs reasons to stop instead of always walking building-to-building |
+| **Bike rack / loading pull-off / bins / streetlights** | visual everyday infrastructure | mostly atmosphere, but can anchor pathfinding and work animations |
+
+### Consolidated major-location decisions
+
+To keep the town compact, older overlapping concepts should resolve like this unless later playtesting gives us a reason to split them:
+
+- **Guidepost Square** absorbs the older generic **Town Square** role.
+- **Central Green / Fountain Park** becomes one public park rather than two separate parks.
+- **Market Row** contains the **General Store**, market stalls, and smaller service storefronts.
+- **Workshop Cottage / Repair Garage** remains one Kenneth-oriented work complex until its final art direction is chosen.
+- **Old Fairground** is treated as an older design name/thread for the **Old Amusement Park**.
+- **Spatz's Base** is absorbed into her apartment/home role for ordinary life.
+- **Quarry Lake / Dockhouse remains superseded** and is not part of the map.
+
+## RPG Life as a town-support layer
+
+Notion's current RPG Life structure already divides life into useful domains — Home, Health & Self Care, Creativity, Money, Work, Relationships, Pets, and Adventure & Learning — while its daily system emphasizes anchors, capacity, quests, goals, rewards, and **no failure debt**. EchoVille should translate those ideas into **places and companionship**, not turn every real-life task into compulsory roleplay.
+
+### RPG Life → EchoVille location mapping
+
+| RPG Life function | EchoVille face | Support behavior |
+| --- | --- | --- |
+| **Daily Orientation / choose the turn** | Guidepost Square + Quest Board | review what matters today; choose or pin a quest without creating debt |
+| **Home / Fortress Maintenance** | Spatz's Apartment + Apartment Building | home-care quests, apartment upgrades, restoration progress |
+| **Health & Self Care** | Training Hall + Central Green + home | movement, gentle routine, rest; Chad can be invited as a training buddy |
+| **Creativity** | Creator Atelier / Art Shed | protected creative-work sessions; invite a resident to hang out or work nearby |
+| **Money / Treasury** | Restoration Ledger Desk / town ledger interface | grounded check-ins and planning; separate personal wallet from building/town funds |
+| **Work** | Town Edge / Dispatch / work-route nodes | work-launch ritual, deliveries, departure/return flavor |
+| **Relationships** | Wired Bean, park, square, homes | invite someone for coffee, a walk, a meal, or simple company |
+| **Pets / Party Camp** | apartment courtyard / pet-care corner + home | care reminders and positive interactions without guilt or Bond loss |
+| **Adventure & Learning** | Library / Academy + Forest Outskirts + rabbit holes | study, research, skill-building, exploration |
+| **Rewards** | General Store / rotating Reward Stall | cosmetics, treats, experiences, decorations, or game tokens when intentionally earned |
+| **Campaigns & Goals** | town restoration map / long-term board | goals become multi-step town projects without making paused goals failures |
+
+### Library as the Academy
+
+The **EchoVille Library / Academy / Digital Archive** is the natural home for RPG Life's learning and study systems rather than creating a separate academy building.
+
+Possible spaces inside:
+- main library stacks
+- digital archive / computer room
+- quiet study tables
+- one or two small study rooms
+- workshop/class table
+- old records section
+- eventual sealed/older wing if lore needs it
+
+**Skylar can act as a default study buddy** because the library is already his natural anchor. The player can also invite another resident instead. The system should treat companionship as optional:
+- study alone
+- ask Skylar
+- invite somebody else
+- co-work quietly without forcing conversation
+- take a break together afterward
+
+A study session can support real-life RPG Life goals while the NPC remains a character rather than becoming a productivity coach. Skylar may help, tease, research beside Spatz, get distracted by something interesting, or simply share the room depending on context.
+
+### Companion-support pattern
+
+This pattern can extend across town:
+
+- **Study** → Library / Academy → Skylar or invited resident
+- **Train / move** → Training Hall / park → Chad or invited resident
+- **Create** → Creator Atelier → invited resident / quiet company
+- **Home project** → apartment / workshop → Kenneth, Spatz, or whoever makes sense
+- **Coffee / decompress** → Wired Bean → Kevin or whoever is already there
+- **Walk / reset** → Central Green / Forest Outskirts → invite anyone or go alone
+- **Errands** → Market Row / General Store → run into residents naturally
+- **Quest choice** → Guidepost Board → choose a bounded action, then return to town life
+
+The important rule is **support, not surveillance**. NPCs do not constantly ask about unfinished goals, punish missed quests, or reduce relationship scores because the player did not complete real-life work.
 
 ## What AI Town contributes to the location system
 
@@ -751,7 +904,7 @@ The player should be able to learn residents' habits well enough to think, "Skyl
 | --- | --- | --- | --- | --- |
 | **Spatz** | Spatz's Apartment | apartment-manager/common areas | broader manager/town responsibilities as designed | coffee shop, computer space, other shared areas |
 | **Kevin** | Kevin's Apartment | Building Coffee Shop | The Wired Bean | common seating, other residents, home |
-| **Skylar** | Skylar's Apartment | Shared Computer Space | EchoVille Library / Digital Archive | coffee shop, common seating, home |
+| **Skylar** | Skylar's Apartment | Shared Computer Space | EchoVille Library / Academy / Digital Archive | study tables, Wired Bean, common seating, home |
 | **Chad** | Chad's Apartment | Building Gym | Training Hall | coffee shop, common areas, home |
 | **Kyle** | future home | — | EchoVille Dispatch | errands, civic/commercial spaces; final routine later |
 | **Kenneth** | future home | — | Workshop Cottage / Repair Garage | commercial/social spaces; final routine later |
@@ -797,7 +950,7 @@ Promote successful apartment-space behaviors into larger town institutions.
 
 Known candidates:
 - **The Wired Bean** — Kevin's larger standalone café/workplace
-- **EchoVille Library / Digital Archive** — Skylar's civic/research anchor
+- **EchoVille Library / Academy / Digital Archive** — Skylar's civic/research anchor
 - **Training Hall** — Chad's larger training/community anchor
 
 The apartment coffee shop, computer space, and gym can function as prototypes for these systems rather than wasted content.
