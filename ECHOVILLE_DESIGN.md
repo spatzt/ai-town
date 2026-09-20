@@ -637,7 +637,138 @@ When apartment-management gameplay is added, support:
 
 ---
 
-# 12. Long-term platform visions
+# 12. Future pass — town building and lore
+
+**PIN BOARD / AFTER APARTMENT MODE.**
+
+The apartment building is the seed of EchoVille, not a disposable tutorial map. Town expansion should grow outward from the routines, relationships, and systems already proven inside the building.
+
+## Expansion philosophy
+
+- Expand only when a new location creates new behavior, relationships, work, exploration, or story possibilities.
+- Prefer a compact, walkable town over a large decorative map.
+- Existing residents should gain reasons to use new places before large numbers of new NPCs are added.
+- The town should feel lived in before it feels complete.
+- Not every location needs a mystery or quest.
+- New spaces should preserve the same semantic-location model used in the apartment building.
+- The apartment building remains a home/social anchor even after the wider town opens.
+
+## Possible expansion order
+
+### Phase A — Apartment building
+Current first playable world:
+- four private apartments
+- lobby / halls / common seating
+- building coffee shop
+- building gym
+- shared computer space
+- apartment-manager responsibilities
+
+### Phase B — Immediate block
+Open the front door and establish the neighborhood around the building.
+
+Possible needs:
+- sidewalk/street circulation
+- a small outdoor common area
+- practical everyday services
+- room for residents to leave the building for short routines
+
+**OPEN:** Exact businesses and services should be chosen based on what the simulation actually needs after apartment playtesting.
+
+### Phase C — Character anchor locations
+Promote successful apartment-space behaviors into larger town institutions.
+
+Known candidates:
+- **The Wired Bean** — Kevin's larger standalone café/workplace
+- **EchoVille Library / Digital Archive** — Skylar's civic/research anchor
+- **Training Hall** — Chad's larger training/community anchor
+
+The apartment coffee shop, computer space, and gym can function as prototypes for these systems rather than wasted content.
+
+### Phase D — Civic / social town
+Add places that support a broader resident population and daily life.
+
+Potential categories:
+- public gathering space
+- local shops/services
+- food
+- recreation
+- workspaces
+- civic services
+- transit/arrival point if the lore requires one
+
+Specific locations should be added because they support characters or gameplay, not simply to fill a map.
+
+### Phase E — Edges, history, and mystery
+Open less ordinary parts of EchoVille after the town already feels normal enough for unusual places to contrast with it.
+
+Known candidate:
+- **Abandoned Amusement Park** — exploration, nostalgia, restoration, private conversations, and later mystery material
+
+Potential later connection:
+- Annex-related spaces/events
+
+The abandoned park should remain melancholy/nostalgic rather than default horror.
+
+## Town simulation systems that expansion may need
+
+- semantic location registry
+- schedules that span multiple buildings
+- homes and workplace ownership/permissions
+- town-scale inventories and storage
+- shops and transactions
+- public/shared inventories
+- opening/closing hours
+- jobs and work shifts
+- town services
+- additional residents
+- location-specific events
+- local reputation/familiarity if useful
+- transport only if walking stops being sufficient
+
+Do not add these simply because a town simulator "should" have them. Add them when the growing map creates the need.
+
+## Lore principles
+
+### The town is a home first
+EchoVille should not exist only to dispense quests. Residents need ordinary reasons to live there, have routines, make friends, disagree, retreat home, work, and waste time.
+
+### Ordinary life makes strange things matter
+Coffee, rent, work, apartment problems, hobbies, and casual conversation establish a baseline. Annex material, unexplained arrivals, or other strange events become more effective because they interrupt an otherwise understandable life.
+
+### Characters do not know everything
+Town lore should obey the same knowledge rules as character memory:
+- objective truth can exist in protected world canon
+- institutions may have records
+- individual residents only know what they have learned
+- rumor, theory, and interpretation are not automatically fact
+
+### Expansion should leave history
+When a new location opens or changes, the world should be able to remember that change. A restored space, new business, moved resident, or repaired landmark can become part of town history instead of resetting to a static map.
+
+## Lore questions to settle later
+
+These should remain **OPEN** until we intentionally choose answers:
+
+- What exactly is EchoVille, in-world?
+- Was the apartment building there before the current residents, or did it become the nucleus of the settlement?
+- Who owns the building, and how did Spatz become its manager?
+- What exists beyond EchoVille?
+- How do new residents normally arrive?
+- Are unusual arrivals rare, normal, or simply poorly understood?
+- Is EchoVille geographically ordinary, liminal, digital, or some combination?
+- How much do ordinary residents know about the larger Echofield / E://FIELD framework?
+- Does "EchoVille" have an in-world reason for its name?
+- What institutions already existed before the player-facing simulation begins?
+- Which pieces of town history are documented, and which survive only as personal stories?
+- How public are Annex-related oddities?
+- What does the town consider normal that an outsider might find strange?
+
+**Rule:** Do not answer these through incidental AI dialogue. Once decided, important answers become Protected Canon.
+
+---
+
+# 13. Long-term platform visions
 
 These are future branches of the platform, not requirements for the base EchoVille build.
 
@@ -682,7 +813,7 @@ Possible examples:
 
 ---
 
-# 13. Guiding principles
+# 14. Guiding principles
 
 1. **Characters remain themselves.**
 2. **The town exists even when Spatz is not the center of a scene.**
