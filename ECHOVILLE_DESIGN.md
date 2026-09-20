@@ -841,6 +841,67 @@ The abandoned park should remain melancholy/nostalgic rather than default horror
 
 Do not add these simply because a town simulator "should" have them. Add them when the growing map creates the need.
 
+## Core town lore — rediscovery
+
+**PROTECTED CANON / FUTURE TOWN PASS**
+
+EchoVille is **ancient**. It is not a newly founded settlement.
+
+The town was lost, forgotten, inaccessible, abandoned, or otherwise removed from ordinary life long enough to become something people no longer actively inhabited. It has now been **rediscovered**.
+
+Spatz, Chad, Skylar, Kevin, and the people who follow are among the **first new residents to return and rebuild here**. Their role is not to create EchoVille from nothing, but to bring life back into a place that already has history, structures, traces, and unresolved stories.
+
+The apartment-building phase represents the earliest practical foothold in that return: establish somewhere safe to live, restore basic routines, then gradually reopen and understand the wider town.
+
+### The whispers
+
+EchoVille **holds whispers**.
+
+These whispers belong to both:
+- **the ancient** — traces of people, events, customs, places, and unresolved history from old EchoVille
+- **the present** — impressions, echoes, rumors, conversations, memories, and emotional residue created by the people living there now
+
+The word **whispers** should remain intentionally broad at first. They may present as:
+- half-remembered stories
+- strange familiarity
+- old records that do not fully agree
+- names or phrases that recur
+- places that seem to carry emotional weight
+- fragments of prior events
+- modern conversations that seem to linger
+- rumors that spread and mutate
+- patterns noticed by different residents
+- rare uncanny moments that may or may not have an ordinary explanation
+
+**Important:** Whispers are not automatically ghosts, prophecy, AI logs, magic, or a single solved phenomenon. Different explanations may coexist until lore deliberately resolves them.
+
+### Why this matters to the simulation
+
+The town should gradually feel as if it has two overlapping lives:
+
+1. **The life residents are building now** — jobs, apartments, routines, friendships, repairs, arguments, meals, errands.
+2. **The life that was already here** — old architecture, records, landmarks, habits, symbols, and stories that predate the current residents.
+
+This supports the routine-focused town design: ordinary daily life is the foreground, while the old town is discovered through repeated use of places rather than constant quest exposition.
+
+### Rebuilding, not replacing
+
+Future town restoration should preserve signs of age rather than making every district look newly constructed.
+
+Useful visual/lore cues:
+- restored buildings beside still-closed structures
+- old stone foundations under newer repairs
+- faded signage
+- reused civic buildings
+- sealed rooms or wings
+- historical plaques added by the new residents
+- overgrown routes gradually reopened
+- old fixtures repaired rather than replaced
+- businesses occupying ancient structures with modern uses
+- architecture whose original purpose is not always obvious
+
+This gives each expansion phase a reason to exist: **the town becomes playable because residents restore access to it.**
+
 ## Lore principles
 
 ### The town is a home first
@@ -863,15 +924,15 @@ When a new location opens or changes, the world should be able to remember that 
 
 These should remain **OPEN** until we intentionally choose answers:
 
-- What exactly is EchoVille, in-world?
-- Was the apartment building there before the current residents, or did it become the nucleus of the settlement?
+- **PARTIALLY ANSWERED:** EchoVille is an ancient town that has been rediscovered; its deeper nature remains open.
+- Was the apartment building part of ancient EchoVille, a later addition, or the first structure restored by the returning residents?
 - Who owns the building, and how did Spatz become its manager?
 - What exists beyond EchoVille?
-- How do new residents normally arrive?
+- How do new residents learn about and arrive at rediscovered EchoVille?
 - Are unusual arrivals rare, normal, or simply poorly understood?
 - Is EchoVille geographically ordinary, liminal, digital, or some combination?
 - How much do ordinary residents know about the larger Echofield / E://FIELD framework?
-- Does "EchoVille" have an in-world reason for its name?
+- Does the name "EchoVille" predate the rediscovery, and is it connected to the town's whispers?
 - What institutions already existed before the player-facing simulation begins?
 - Which pieces of town history are documented, and which survive only as personal stories?
 - How public are Annex-related oddities?
