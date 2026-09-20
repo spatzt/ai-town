@@ -1329,6 +1329,40 @@ Potential capabilities:
 
 EchoVille could also become the persistent world/interface for **RPG LIFE**.
 
+### Dual progression model
+
+EchoVille should run two connected but separate forms of progression:
+
+**1. Player / RPG Life progression**
+- real-life goals and quests can award **XP**
+- selected quests can award **Gold**
+- XP represents visible personal progression
+- Gold is a game currency that can be spent on intentionally chosen rewards, town cosmetics, decorations, or other game-layer unlocks
+- unfinished or missed goals do not create negative XP, debt, or relationship penalties
+
+**2. Resident / town-life progression**
+- AI residents have jobs, routines, interests, responsibilities, and things they can learn **independently of the player's goals**
+- a resident can improve at a job, discover a preference, build familiarity with a location, deepen a relationship, learn town history, or develop a new routine through ordinary simulated life
+- residents should continue to grow even when the player is not actively pursuing a goal
+- resident growth is not purchased with player XP and should not exist only as a reward mechanism
+
+This keeps the town from feeling like a menu wrapped around a habit tracker. RPG Life gives the player progression, while the AI town remains alive enough to create its own stories.
+
+### Jobs as learning systems
+
+A resident's job should be more than a fixed destination on a schedule. Work can create **learning opportunities** and new town behavior.
+
+Examples:
+- Kevin learns a new recipe, notices a regular customer's preferences, improves the Wired Bean, or starts stocking something residents repeatedly request.
+- Skylar catalogs a recovered document, learns a new research topic, discovers a contradiction in town records, or develops a study routine with another resident.
+- Chad develops a new training routine, learns how another resident likes to exercise, maintains equipment, or teaches someone a technique.
+- Kyle learns delivery routes, discovers which paths are reliable, remembers residents' preferred drop-off habits, or notices changes around town.
+- Kenneth learns recurring repair problems, restores old tools, identifies useful salvage, or becomes more familiar with ancient construction methods.
+- Brae learns the Forest Outskirts through use: safe routes, seasonal resources, quiet spots, hazards, and traces of older structures.
+
+**Design rule:** job learning can create new memories, preferences, skills, relationships, activity options, or small town improvements, but it cannot silently overwrite Protected Canon.
+
+
 Core idea:
 - the player has a town full of familiar support characters
 - real-life goals/tasks can become bounded in-world quests or activities
