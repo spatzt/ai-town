@@ -755,7 +755,7 @@ The player should be able to learn residents' habits well enough to think, "Skyl
 | **Chad** | Chad's Apartment | Building Gym | Training Hall | coffee shop, common areas, home |
 | **Kyle** | future home | — | EchoVille Dispatch | errands, civic/commercial spaces; final routine later |
 | **Kenneth** | future home | — | Workshop Cottage / Repair Garage | commercial/social spaces; final routine later |
-| **Brae** | unresolved | — | unresolved | Do not assign an old Quarry Lake job by default; his outsider routine should be designed from current canon later |
+| **Brae** | **Forest Outskirts** | Forest Outskirts / nearby trails | unresolved | Lives outside the main town footprint; outsider routine can center on trails, solitude, scavenging/foraging, and selective trips into town. Do not assign an old Quarry Lake job by default. |
 | **Candice** | unresolved | — | unresolved | Abandoned Amusement Park is an arrival/story location, not a current job assignment |
 
 ## Expansion philosophy
@@ -962,6 +962,21 @@ Story function:
 - can hide entrances, old routes, or clues without every trip becoming a quest
 
 The deeper forest beyond the Outskirts can remain mostly undefined until the game needs it.
+
+
+### Brae's place in the Forest Outskirts
+
+Brae lives in the Forest Outskirts rather than in the apartment building or denser town center.
+
+This supports his outsider status naturally:
+- he has a home base, but keeps physical distance from town life
+- his normal routine can include trails, clearing paths, collecting materials, sitting somewhere secluded, or making selective trips into town
+- town residents may know roughly where he stays without treating his space as public property
+- his eventual relationship with EchoVille can be shown through how often he chooses to come inward, rather than forcing a formal "join the town" moment
+
+His residence should feel **self-chosen and functional**, not like the town has exiled him or assigned him a wilderness role.
+
+**OPEN:** Exact form of the residence — cabin, restored utility structure, small shelter, reused outbuilding, or something else — should be designed later.
 
 ## First rabbit-hole location set
 
