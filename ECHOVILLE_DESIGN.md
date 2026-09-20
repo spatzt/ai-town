@@ -902,6 +902,136 @@ Useful visual/lore cues:
 
 This gives each expansion phase a reason to exist: **the town becomes playable because residents restore access to it.**
 
+## First rabbit-hole location set
+
+These four locations are the first intentionally preserved **rabbit-hole sites** for the post-apartment town pass. They are not ordinary routine destinations at first. Each begins partially known, inaccessible, misunderstood, or dormant, and becomes relevant through whispers, clues, restoration, or resident curiosity.
+
+### Old Amusement Park
+**Status:** LOCKED FUTURE LOCATION  
+**Era:** Remnant of the **last city built here**, not ancient EchoVille proper.
+
+The old amusement park is one of the clearest surviving pieces of the previous city layer. Its structures are weathered and overgrown, but still recognizable: midway paths, ride foundations, faded signage, service booths, and the remains of attractions.
+
+Tone:
+- nostalgic
+- melancholy
+- slightly uncanny
+- not horror by default
+
+Story function:
+- proves that EchoVille has been rebuilt over more than one historical layer
+- gives residents a place where ordinary nostalgia and deeper whispers overlap
+- supports exploration, restoration, private conversations, found objects, and later Annex-adjacent mysteries
+
+The park should feel emotionally legible before it feels supernatural. A broken ride, old ticket booth, or faded mascot sign can matter simply because someone once loved it.
+
+### The Annex
+**Status:** LOCKED FUTURE MYSTERY LOCATION  
+**Era:** Deliberately unresolved.
+
+"The Annex" is a name that survives more clearly than its purpose.
+
+It may first appear in:
+- old maps
+- utility markings
+- conflicting records
+- labels on keys or access cards
+- offhand references in documents
+- directions that no longer match visible streets
+
+The Annex should remain difficult to classify. It may have been institutional, civic, technical, residential, archival, or something that changed purpose across eras.
+
+Tone:
+- quiet
+- institutional
+- liminal
+- wrong in subtle ways rather than overtly threatening
+
+Story function:
+- major rabbit-hole hub
+- contradictory records
+- inaccessible wings
+- strange infrastructure
+- unexplained connections to other locations
+- a place where the difference between ancient EchoVille, the last city, and current rebuilding becomes difficult to untangle
+
+Do not define its ultimate truth casually. Major Annex revelations become Protected Canon only when intentionally decided.
+
+### Service Tunnels
+**Status:** LOCKED FUTURE NETWORK  
+**Era:** Layered infrastructure.
+
+The service tunnels run beneath parts of EchoVille. Their age is not uniform. Some sections may be old stone conduits from ancient EchoVille, while later sections show concrete, pipes, cabling, utility markings, and repairs from the last city.
+
+This makes the tunnels a physical record of the town being rebuilt over itself.
+
+Initial uses:
+- maintenance access
+- hidden shortcuts
+- utility restoration
+- sealed branches
+- old signage
+- lost storage
+- route discoveries
+
+Story function:
+- connects rabbit-hole locations without requiring every mystery to appear above ground
+- lets restoration literally open new paths
+- creates evidence of multiple construction eras
+- provides practical reasons for Spatz's manager role and other residents to become involved
+
+The tunnels should remain primarily **infrastructure first, mystery second**. Their ordinary purpose keeps discoveries grounded.
+
+### Rooftop Garden on the Old Stone Tower
+**Status:** LOCKED FUTURE LOCATION  
+**Era:** Intentionally layered.
+
+An old stone tower rises above part of EchoVille. The tower itself appears substantially older than the last city. At some later point, someone built or cultivated a rooftop garden at its summit.
+
+This creates a visible vertical overlap of eras: ancient stone below, later human care above.
+
+The garden may include:
+- weathered planters
+- climbing vines
+- small trees or hardy shrubs
+- benches or seating
+- old irrigation channels or retrofitted pipes
+- views over the town
+- signs that different generations maintained it
+
+Tone:
+- secluded
+- beautiful
+- wind-exposed
+- contemplative
+- quietly strange
+
+Story function:
+- emotional refuge
+- observation point over restored and unrestored EchoVille
+- place for intimate conversations
+- botanical/item discoveries
+- visual evidence that people in a later era cared for something much older than themselves
+
+The rooftop garden should not begin as a danger zone. Its power comes from beauty, age, perspective, and the question of who kept returning to care for it.
+
+### Rabbit-hole network principle
+
+These four locations should eventually form a loose discovery network rather than four isolated quest dungeons.
+
+Possible relationships:
+- service tunnels can reveal routes toward the Annex or tower foundations
+- last-city records found at the amusement park can reference the Annex
+- the tower garden can overlook structures or routes not obvious from street level
+- whispers discovered in one site can change how another site is interpreted
+
+AI-generated rabbit-hole content may create temporary clues, local discoveries, minor rooms, records, objects, or scene prompts, but it must operate inside these constraints:
+- it cannot rewrite the established era/status of a locked location
+- it cannot reveal the final truth of the Annex unless canon explicitly allows it
+- generated items must become real inventory/state if they matter mechanically
+- generated discoveries should distinguish objective evidence from a character's theory
+- useful generated additions can later be promoted into Protected Canon
+
 ## Lore principles
 
 ### The town is a home first
