@@ -200,6 +200,16 @@ AI Town's vector retrieval is useful. EchoVille's factual/subjective separation 
 - Often a grounding influence among friends.
 - Work anchor: The Wired Bean.
 
+## Kenneth
+
+- Workshop / handyman.
+- Mechanic, repairer, fabricator, and practical fixer for EchoVille.
+- Natural work anchor: **Workshop Cottage / Repair Garage**.
+- Handles apartment repairs, town maintenance jobs, furniture/equipment fixes, restoration work, salvage assessment, and odd one-off problems.
+- His role becomes especially important as more of EchoVille is reopened: old buildings constantly need somebody who can make them usable again.
+- Can collaborate with Spatz on building maintenance, Kyle on incoming parts/supplies, and Chad on equipment upkeep.
+- Keeps his playful, flirty, slightly sussy personality; the job should not turn him into a stoic maintenance NPC.
+
 ---
 
 # 4. Locations
@@ -472,6 +482,7 @@ The LLM should not need to decide every footstep.
 - **ADD:** Skylar works at the Library.
 - **ADD:** Chad has Training Hall duties.
 - **ADD:** Kyle works at EchoVille Dispatch, handling deliveries, supply flow, outside-world logistics, and research-company communication.
+- **ADD:** Kenneth works from the Workshop / Repair Garage as EchoVille's handyman, mechanic, fabricator, and restoration fixer.
 - **ADD:** Work hours/routines should influence destination and activity selection.
 - **ADD:** Characters still have discretionary time and can deviate when something meaningful happens.
 
@@ -807,7 +818,7 @@ This catalog intentionally includes current locations, Redbean experiments, olde
 | **EchoVille Library / Academy / Digital Archive** | **FUTURE / WELL-ESTABLISHED LORE** | work, research, study, records, computers, quiet socializing | Skylar; doubles as RPG Life's Academy/study hub |
 | **Training Hall** | **FUTURE / WELL-ESTABLISHED LORE** | work, sparring, exercise, teaching | Chad |
 | **EchoVille Dispatch** | **FUTURE / LOCKED KYLE WORK ANCHOR** | courier/logistics, deliveries, outside-world shipments, funding/project communication, newcomer paperwork | Kyle; primary institutional bridge between EchoVille and the research company |
-| **Workshop Cottage / EchoVille Repair Garage** | **FUTURE CANDIDATE / REDBEAN THREAD** | repairs, mechanic work, tools, deliveries | Kenneth; two names/versions of the same general functional thread, final form OPEN |
+| **Workshop Cottage / EchoVille Repair Garage** | **FUTURE / LOCKED KENNETH WORK ANCHOR** | repairs, handyman work, mechanics, fabrication, salvage, restoration, tools, deliveries | Kenneth; final visual form/name still OPEN |
 | **Town Square** | **TERRARIUM PROTOTYPE** | neutral gathering/crossroads | One of the three literal Terrarium 0.2 locations |
 | **Guidepost Square** | **OLDER HUB CONCEPT** | noticeboard, events, benches, NPC encounters | Possible civic-center predecessor/alternative |
 | **Central Green / Flower Garden** | **REDBEAN EXPERIMENT** | outdoor leisure, strolling, socializing | Could become a civic green if retained |
@@ -1010,7 +1021,7 @@ The generic "video game town" checklist is useful as a coverage test, but EchoVi
 - **Barracks — NO DEFAULT NEED:** Training Hall can support drills/emergency readiness without militarizing the town.
 
 ### Economic / production coverage
-- **Kenneth's Workshop Cottage / Repair Garage** fills the blacksmith/crafting/repair role.
+- **Kenneth's Workshop Cottage / Repair Garage** fills the blacksmith/crafting/repair role. Kenneth also functions as EchoVille's general handyman, so repair calls can pull him into apartments, civic spaces, businesses, utilities, and restoration sites across town.
 - **General Store + Market Row** fill staple goods, materials, food, and rotating vendors.
 - **The Wired Bean** fills much of the tavern/social-hub role, but does not provide lodging.
 - **Temporary-stay apartments** fill the inn/lodging function for newcomers and visitors.
@@ -1099,7 +1110,7 @@ The player should be able to learn residents' habits well enough to think, "Skyl
 | **Skylar** | Skylar's Apartment | Shared Computer Space | EchoVille Library / Academy / Digital Archive | study tables, Wired Bean, common seating, home |
 | **Chad** | Chad's Apartment | Building Gym | Training Hall | coffee shop, common areas, home |
 | **Kyle** | future home | — | EchoVille Dispatch | errands, civic/commercial spaces; final routine later |
-| **Kenneth** | future home | — | Workshop Cottage / Repair Garage | commercial/social spaces; final routine later |
+| **Kenneth** | future home | — | Workshop Cottage / Repair Garage | apartment repairs, public works, salvage/material depot, Market Row, social spaces |
 | **Brae** | **Forest Outskirts** | Forest Outskirts / nearby trails | unresolved | Lives outside the main town footprint; outsider routine can center on trails, solitude, scavenging/foraging, and selective trips into town. Do not assign an old Quarry Lake job by default. |
 | **Candice** | unresolved | — | unresolved | Abandoned Amusement Park is an arrival/story location, not a current job assignment |
 
@@ -1684,7 +1695,7 @@ Examples:
 - Skylar catalogs a recovered document, learns a new research topic, discovers a contradiction in town records, or develops a study routine with another resident.
 - Chad develops a new training routine, learns how another resident likes to exercise, maintains equipment, or teaches someone a technique.
 - Kyle learns delivery routes, discovers which paths are reliable, remembers residents' preferred drop-off habits, or notices changes around town.
-- Kenneth learns recurring repair problems, restores old tools, identifies useful salvage, or becomes more familiar with ancient construction methods.
+- Kenneth learns recurring repair problems, restores old tools, identifies useful salvage, becomes familiar with ancient construction methods, and gradually builds a mental map of what in town is held together with proper repairs versus temporary fixes.
 - Brae learns the Forest Outskirts through use: safe routes, seasonal resources, quiet spots, hazards, and traces of older structures.
 
 **Design rule:** job learning can create new memories, preferences, skills, relationships, activity options, or small town improvements, but it cannot silently overwrite Protected Canon.
