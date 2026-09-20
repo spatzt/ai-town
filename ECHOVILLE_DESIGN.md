@@ -1452,6 +1452,101 @@ AI-generated rabbit-hole content may create temporary clues, local discoveries, 
 - generated discoveries should distinguish objective evidence from a character's theory
 - useful generated additions can later be promoted into Protected Canon
 
+## Research-project framing and awareness levels
+
+**PROTECTED CANON / CHARACTER-SYSTEM FOUNDATION**
+
+EchoVille's current rebuilding effort is being **funded and observed by a research team / company-backed project**.
+
+Not everyone living in EchoVille entered the project the same way. Residents can include:
+- people deliberately hired or recruited by the company
+- people brought in because of someone already involved
+- people who accepted a practical role without caring much about the larger project
+- people who were effectively roped into the situation
+- people who simply found themselves in EchoVille with little explanation
+- later newcomers whose relationship to the project is unclear at first
+
+This difference should affect what characters know, what they question, how much institutional information they have access to, and how they interpret strange events.
+
+### Two separate awareness scales
+
+Each resident can have two independent awareness levels:
+
+**Project Awareness — Low → High**
+How much the character understands the formal EchoVille research project itself:
+- who is funding it
+- what the research team/company claims the project is for
+- what rules/protocols exist
+- which systems are deliberate
+- what resources or infrastructure are project-funded
+- who is officially employed, contracted, recruited, or merely present
+
+**Meta Awareness — Low → High**
+How much the character notices or understands the deeper artificial, constructed, observed, system-like, or narratively unusual nature of EchoVille.
+
+Meta awareness is not automatically the same as knowing "this is a video game." A character may:
+- notice repeating systems or improbable coincidences
+- sense that the town responds to observation or intervention
+- recognize UI/game-like abstractions metaphorically
+- suspect that some events are being generated or shaped
+- understand that an outside observer/player exists
+- at the highest levels, deliberately reason about the simulation/meta layer
+
+A character can therefore be:
+- high Project / low Meta
+- low Project / high Meta
+- high in both
+- low in both
+
+These values should affect dialogue and interpretation, but should **not** overwrite personality or canon.
+
+### Awareness scale target
+
+Use a simple five-step scale for each axis:
+
+- **0 — None:** effectively unaware
+- **1 — Vague:** knows/suspects something exists
+- **2 — Functional:** knows enough to operate around it
+- **3 — Informed:** understands meaningful structure and implications
+- **4 — Insider:** has privileged or unusually deep understanding
+
+Exact numbers can change through story when justified, but major jumps should come from real events, disclosure, discovery, or role changes rather than random AI drift.
+
+### Kyle and Kevin — contrasting project entry
+
+**Kyle**
+- was **hired by the company / research project** to help keep things together
+- has materially greater Project Awareness than Kevin
+- his exact title and how much the company told him remain open
+- his role can naturally connect to logistics, coordination, Dispatch, resident arrivals, and keeping practical systems functioning
+
+**Kevin**
+- was pulled into EchoVille primarily **because of Kyle**, not because he independently signed up for the research project
+- begins with substantially less Project Awareness than Kyle
+- his first response is practical and people-centered rather than institutional: if people are going to be living here, they will need food, coffee, breakfast, and somewhere warm to gather
+- this provides a natural origin for **The Wired Bean**: Kevin creates or restores the café because people need to eat and morning coffee still matters even inside a strange research project
+
+The contrast should show in conversation:
+- Kyle may talk about project logistics, requirements, funding, or what the company expects.
+- Kevin may know only the parts Kyle has told him and care much more about whether everyone has eaten.
+
+### Research funding and town economy
+
+Research funding can exist as one source of EchoVille's early rebuilding capital without replacing the local economy.
+
+Possible funded categories:
+- initial apartment restoration
+- core utilities
+- research equipment / computers
+- resident relocation or startup support
+- restoration grants
+- scenario-specific funding
+- wages/contracts for formally hired project staff
+
+As the town grows, local rent, business income, assessments/taxes, and resident economic activity can coexist with research funding.
+
+**Design rule:** company/research funding should create resources and story pressure, not make every resident an employee or every town decision controlled by the sponsor.
+
 ## Lore principles
 
 ### The town is a home first
