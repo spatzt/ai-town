@@ -220,6 +220,36 @@ The first playable EchoVille is intentionally compact: one apartment building th
 ### Kevin's apartment
 **Purpose:** Kevin's private retreat.
 
+### Household / occupancy model
+**LOCKED DESIGN:** An apartment is a **household space**, not a one-resident slot.
+
+A unit can be occupied by:
+- one resident
+- roommates
+- a couple
+- a small family / guardian household where canon supports it
+- a temporary resident
+- a temporary resident sharing with an established household if everyone involved agrees
+
+This means housing can evolve with relationships and story rather than forcing one apartment per person.
+
+Possible housing changes:
+- two friends decide to become roommates
+- a couple chooses to live together
+- roommates split into separate units
+- a temporary resident is invited into an existing household
+- a resident moves from the Forest Outskirts into town
+- a resident keeps an outside home while using an apartment temporarily
+- an apartment becomes vacant again and can be offered to a newcomer
+
+**Design rule:** housing changes should be explicit world-state events with the consent/intent of the residents involved. Relationship scores alone do not automatically cause characters to move in together.
+
+### Known character possibilities
+
+- **Candice:** may be offered a room in the apartment building as part of her arrival into EchoVille. Her exact household/guardian arrangement should follow the story we intentionally establish rather than being invented by routine AI.
+- **Brae:** begins in the Forest Outskirts, but may later **choose** to take up residence in the apartment building or share housing with someone if that development fits his relationships and sense of safety. Moving inward should be character growth, not a requirement.
+- **Couples / roommates:** established or developing relationships can eventually create shared households, giving apartments changing occupancy over time.
+
 ### Temporary-stay apartments / newcomer rooms
 **LOCKED DESIGN:** The apartment building itself provides EchoVille's temporary lodging system. A separate guesthouse is not required.
 
@@ -236,6 +266,7 @@ Temporary residents:
 Possible stay outcomes:
 - extend the stay
 - move into a permanent apartment if space and story support it
+- become a roommate or join an existing household if everyone involved chooses it
 - move elsewhere in EchoVille as new housing opens
 - choose to leave
 - appear again later through a scenario or return visit
@@ -311,6 +342,7 @@ Keep this lightweight in the first slice unless management gameplay proves fun.
 This lets the simulation distinguish between:
 - items carried by a resident
 - items owned by a resident but stored at home
+- household/shared items owned jointly by apartment occupants
 - shared/apartment fixtures and furnishings
 - building-owned items in common spaces
 
@@ -614,7 +646,7 @@ A future apartment-management loop can use temporary rooms as the town's onboard
 3. The newcomer moves in with a limited initial inventory and ordinary autonomy.
 4. Their AI routine begins revealing where they like to spend time, who they connect with, and what kind of work or role might fit.
 5. During the stay, the town learns about them and they learn about EchoVille.
-6. A later decision can resolve into permanent housing, relocation elsewhere in town, extended stay, or departure.
+6. A later decision can resolve into a permanent solo unit, a roommate/shared-household arrangement, relocation elsewhere in town, extended stay, or departure.
 
 This should feel more like **meeting a potential new neighbor** than recruiting a unit from a menu.
 
