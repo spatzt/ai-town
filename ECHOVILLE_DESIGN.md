@@ -471,6 +471,7 @@ The LLM should not need to decide every footstep.
 - **ADD:** Kevin works at The Wired Bean.
 - **ADD:** Skylar works at the Library.
 - **ADD:** Chad has Training Hall duties.
+- **ADD:** Kyle works at EchoVille Dispatch, handling deliveries, supply flow, outside-world logistics, and research-company communication.
 - **ADD:** Work hours/routines should influence destination and activity selection.
 - **ADD:** Characters still have discretionary time and can deviate when something meaningful happens.
 
@@ -805,7 +806,7 @@ This catalog intentionally includes current locations, Redbean experiments, olde
 | **The Wired Bean** | **FUTURE / WELL-ESTABLISHED LORE** | café, work, meals, social hub | Kevin; Redbean exterior/interior work and Terrarium prototype anchor |
 | **EchoVille Library / Academy / Digital Archive** | **FUTURE / WELL-ESTABLISHED LORE** | work, research, study, records, computers, quiet socializing | Skylar; doubles as RPG Life's Academy/study hub |
 | **Training Hall** | **FUTURE / WELL-ESTABLISHED LORE** | work, sparring, exercise, teaching | Chad |
-| **EchoVille Dispatch** | **FUTURE CANDIDATE / ESTABLISHED CHARACTER ROLE** | courier/logistics, deliveries, errands | Kyle |
+| **EchoVille Dispatch** | **FUTURE / LOCKED KYLE WORK ANCHOR** | courier/logistics, deliveries, outside-world shipments, funding/project communication, newcomer paperwork | Kyle; primary institutional bridge between EchoVille and the research company |
 | **Workshop Cottage / EchoVille Repair Garage** | **FUTURE CANDIDATE / REDBEAN THREAD** | repairs, mechanic work, tools, deliveries | Kenneth; two names/versions of the same general functional thread, final form OPEN |
 | **Town Square** | **TERRARIUM PROTOTYPE** | neutral gathering/crossroads | One of the three literal Terrarium 0.2 locations |
 | **Guidepost Square** | **OLDER HUB CONCEPT** | noticeboard, events, benches, NPC encounters | Possible civic-center predecessor/alternative |
@@ -1516,9 +1517,12 @@ Exact numbers can change through story when justified, but major jumps should co
 
 **Kyle**
 - was **hired by the company / research project** to help keep things together
+- works through **EchoVille Dispatch**
+- Dispatch is the town's practical connection to the outside world: company funding, incoming shipments, outgoing packages, supply requests, newcomer paperwork, delivery routing, and official project communication all tend to pass through it
 - has materially greater Project Awareness than Kevin
-- his exact title and how much the company told him remain open
-- his role can naturally connect to logistics, coordination, Dispatch, resident arrivals, and keeping practical systems functioning
+- his exact formal title and how much the company told him remain open
+- carries unusually heavy operational pressure because delays, shortages, missing paperwork, failed deliveries, or sponsor demands can all land on his desk
+- this makes Dispatch both a useful town service and one of the clearest places where the outside project can intrude on ordinary EchoVille life
 
 **Kevin**
 - was pulled into EchoVille primarily **because of Kyle**, not because he independently signed up for the research project
