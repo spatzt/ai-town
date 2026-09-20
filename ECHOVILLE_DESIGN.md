@@ -313,6 +313,7 @@ These remain EchoVille destinations for later growth rather than first-map requi
 - The Wired Bean as a larger standalone café
 - EchoVille Library / digital archive
 - Training Hall
+- Forest Outskirts / trail network
 - Abandoned Amusement Park
 - Annex-related locations
 
@@ -674,7 +675,8 @@ This catalog intentionally includes current locations, Redbean experiments, olde
 | **Residential Lane / Suburban Homes** | **REDBEAN / OLDER CANDIDATE** | housing expansion, visits, home routines | Useful after the apartment building is no longer the only housing |
 | **Town Edge** | **OLDER CANDIDATE** | transition space, arrivals, exploration | Good boundary/expansion concept |
 | **Willow Grove** | **OLDER ECHOFIELD/ECHOVILLE CONCEPT** | nature, quiet time, walks | Candidate edge/nature location |
-| **Trails** | **REDBEAN EXPERIMENT** | walking, solitude, travel links | Final geography OPEN |
+| **Forest Outskirts** | **LOCKED FUTURE GEOGRAPHY / ROUTINE ZONE** | foraging, walking, quiet time, exploration, route discovery | EchoVille is surrounded by forest; this is the playable transition zone between town and deeper woods |
+| **Trails** | **REDBEAN EXPERIMENT** | walking, solitude, travel links | Likely folded into Forest Outskirts / trail network |
 | **Abandoned Amusement Park** | **WELL-ESTABLISHED FUTURE LOCATION** | exploration, nostalgia, private talks, restoration/mystery | Terrarium anchor; future Annex material |
 | **Old Fairground** | **REDBEAN PREDECESSOR/VARIANT** | same general abandoned-fairground niche | Treat as an earlier naming/design thread for the amusement-park concept unless deliberately separated |
 | **Annex** | **MYSTERY / FUTURE STORY SPACE** | unusual exploration/story events | Not an ordinary everyday destination; exact nature deliberately unresolved |
@@ -785,6 +787,8 @@ Possible needs:
 - a small outdoor common area
 - practical everyday services
 - room for residents to leave the building for short routines
+- visible forest pressure at the edge of the built area
+
 
 **OPEN:** Exact businesses and services should be chosen based on what the simulation actually needs after apartment playtesting.
 
@@ -840,6 +844,21 @@ The abandoned park should remain melancholy/nostalgic rather than default horror
 - transport only if walking stops being sufficient
 
 Do not add these simply because a town simulator "should" have them. Add them when the growing map creates the need.
+
+## Core geography — forest setting
+
+**PROTECTED CANON / FUTURE TOWN PASS**
+
+EchoVille sits **in the middle of a forest**. The forest is not a decorative border; it is the town's immediate surrounding geography and should shape arrival, expansion, routines, and atmosphere.
+
+The wider town should feel enclosed by trees, old trails, overgrown service roads, and partially reclaimed edges. Leaving the built-up area means entering the forest rather than immediately reaching suburbs or open farmland.
+
+This creates a strong spatial contrast:
+- **town center:** restored, inhabited, increasingly active
+- **town edge:** transitional, overgrown, partially reopened
+- **forest outskirts:** quieter, less controlled, older-feeling, and ideal for exploration or discovery
+
+The forest can contain both ordinary nature and traces of previous settlement layers without making every path supernatural.
 
 ## Core town lore — rediscovery
 
@@ -901,6 +920,48 @@ Useful visual/lore cues:
 - architecture whose original purpose is not always obvious
 
 This gives each expansion phase a reason to exist: **the town becomes playable because residents restore access to it.**
+
+## Forest Outskirts
+
+**Status:** LOCKED FUTURE LOCATION / GEOGRAPHIC EDGE  
+**Era:** Natural landscape with layered human traces.
+
+The **Forest Outskirts** are the playable transition between restored EchoVille and the deeper forest surrounding it.
+
+They should support ordinary routines first:
+- walking
+- sitting
+- foraging
+- collecting natural materials
+- clearing trails
+- checking old markers
+- quiet conversations
+- taking a break away from town
+
+They can also carry subtle evidence of older settlement layers:
+- stone walls swallowed by roots
+- broken roadbeds
+- old utility poles
+- boundary markers
+- foundations
+- forgotten paths
+- signage that points somewhere no longer visible
+
+Tone:
+- calm
+- green
+- secluded
+- occasionally uncanny
+- never automatically dangerous
+
+Story function:
+- makes EchoVille feel geographically isolated without making it trapped
+- creates a soft boundary for map expansion
+- provides natural routine destinations
+- offers discovery space between ordinary town life and deeper rabbit-hole locations
+- can hide entrances, old routes, or clues without every trip becoming a quest
+
+The deeper forest beyond the Outskirts can remain mostly undefined until the game needs it.
 
 ## First rabbit-hole location set
 
