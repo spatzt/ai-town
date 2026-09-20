@@ -168,10 +168,12 @@ AI Town's vector retrieval is useful. EchoVille's factual/subjective separation 
 
 ## Spatz
 
-- **Role:** Player resident.
-- **Player fantasy:** Participant in EchoVille, not mayor, chosen hero, or authority.
+- **Role:** Player resident and apartment manager.
+- **Player fantasy:** Spatz has a practical responsibility for the building, but is not the mayor, chosen hero, or social authority over the residents.
 - **Core:** creative, curious, playful, observant.
 - **Player control:** movement, conversation, exploration, invitations/suggestions.
+- **Building role:** Gives Spatz a natural reason to know the residents, move through shared spaces, notice problems, and interact with the building without making everyone revolve around her.
+- **OPEN:** How much apartment-management work is simulated in the first slice versus kept as light flavor.
 - **OPEN:** Whether Spatz also receives AI-authored interpretation/memory assistance or remains purely human-controlled in the first build.
 
 ## Chad
@@ -202,25 +204,38 @@ AI Town's vector retrieval is useful. EchoVille's factual/subjective separation 
 
 # 4. Locations
 
-## First-world target locations
+## First-world target: the apartment building
 
-### Town Square
-**Purpose:** neutral public space, crossing paths, casual conversation, idling, small community events.
+The first playable EchoVille is intentionally compact: one apartment building that functions as a miniature social world. Every core resident has a private apartment, with shared spaces that naturally create routines and chance encounters.
+
+### Spatz's apartment
+**Purpose:** Spatz's private home and player starting space.
+
+### Chad's apartment
+**Purpose:** Chad's private retreat.
+
+### Skylar's apartment
+**Purpose:** Skylar's private retreat.
+
+### Kevin's apartment
+**Purpose:** Kevin's private retreat.
+
+### Lobby / hallways / common seating
+**Purpose:** neutral circulation and casual social space.
 
 Possible activities:
-- relax
-- people-watch
-- talk
-- wait
 - pass through
+- wait
+- talk
+- sit
+- check on the building
 
-### The Wired Bean
-**Purpose:** café, food, work, social hub, familiar decompression space.
+### Building coffee shop
+**Purpose:** café, work anchor, and main social hub.
 
 Important behavior:
-- Kevin has a real work relationship to the location.
-- Residents can visit for food/drink/social reasons rather than wandering in randomly.
-- Good location for casual check-ins.
+- Kevin has a real work relationship to the coffee shop.
+- Residents can visit for food, drink, breaks, or company.
 
 Possible activities:
 - work
@@ -232,52 +247,47 @@ Possible activities:
 - talk
 - decompress
 
-### EchoVille Library
-**Purpose:** civic library and digital archive.
-
-Important behavior:
-- Skylar has a real work relationship to the location.
+### Building gym
+**Purpose:** exercise, training, sparring, and Chad's natural anchor.
 
 Possible activities:
-- work
-- research
-- browse
-- read
-- use computers
-- archive
-- quiet conversation
-
-### Training Hall
-**Purpose:** community exercise, sparring, instruction, self-defense.
-
-Important behavior:
-- Chad has a real work/identity relationship to the location.
-
-Possible activities:
+- exercise
 - train
 - spar
-- teach
-- exercise
+- stretch
 - cool down
 - talk
 
-### Abandoned Amusement Park
-**Purpose:** exploration, nostalgia, mystery, restoration possibility.
-
-Tone:
-- abandoned and melancholy/nostalgic
-- not automatically horror
+### Shared computer space
+**Purpose:** computers, research, digital projects, and Skylar's natural anchor.
 
 Possible activities:
-- explore
-- investigate
-- reminisce
-- wander
-- inspect old structures
-- talk privately
+- research
+- use computers
+- read
+- work on projects
+- troubleshoot
+- talk quietly
 
-Potential future connection:
-- Annex mystery/story material.
+### Apartment manager space / building tasks
+**Purpose:** Gives Spatz a practical relationship to the whole building.
+
+Potential early uses:
+- check shared spaces
+- notice maintenance issues
+- talk with residents
+- coordinate access or simple building concerns
+
+Keep this lightweight in the first slice unless management gameplay proves fun.
+
+## Later world expansion
+
+These remain EchoVille destinations for later growth rather than first-map requirements:
+- The Wired Bean as a larger standalone café
+- EchoVille Library / digital archive
+- Training Hall
+- Abandoned Amusement Park
+- Annex-related locations
 
 ## Explicitly not current
 
@@ -449,22 +459,18 @@ The first slice should prioritize visible life over architectural completeness.
 
 ## Target
 
-- Spatz as the player.
+- Spatz as the player and apartment manager.
 - Chad, Skylar, and Kevin as autonomous AI residents.
-- Our own basic sprites.
-- A recognizably EchoVille map.
-- At minimum:
-  - Town Square
-  - The Wired Bean
-  - Library
-  - Training Hall
-  - Abandoned Amusement Park
+- Each of the four has a private apartment.
+- Shared spaces: lobby/halls, coffee shop, gym, and computer space.
+- Our own basic sprites and apartment-building art.
 - NPCs walk around under AI Town's existing movement system.
 - NPCs initiate conversations without Spatz.
 - Spatz can approach and converse with them.
-- Kevin visibly has a Wired Bean routine.
-- Skylar visibly has a Library routine.
-- Chad visibly has a Training Hall routine.
+- Kevin visibly uses the coffee shop as his work anchor.
+- Skylar naturally uses the computer space.
+- Chad naturally uses the gym.
+- Spatz has lightweight manager reasons to move through and check on the building.
 - NPC dialogue uses EchoVille character identities.
 - Conversations become memories.
 - Basic EchoVille memory/canon safeguards begin replacing stock memory assumptions.
@@ -473,12 +479,13 @@ The first slice should prioritize visible life over architectural completeness.
 
 Open the town and, without scripting the scene by hand:
 
-1. Kevin goes to work.
-2. Skylar moves through his routine.
-3. Chad decides to approach or respond to somebody.
-4. Two NPCs meet and have a character-appropriate conversation.
-5. Later dialogue can reference that earlier interaction.
-6. Spatz can walk in and participate without becoming the center of every relationship.
+1. Kevin heads to the coffee shop and works.
+2. Skylar spends time in the shared computer space.
+3. Chad uses the gym, then moves elsewhere on his own.
+4. Residents cross paths in the lobby, halls, or shared spaces.
+5. Two NPCs meet and have a character-appropriate conversation without Spatz initiating it.
+6. Later dialogue can reference that earlier interaction.
+7. Spatz can move through the building as manager/resident and participate without becoming the center of every relationship.
 
 ---
 
