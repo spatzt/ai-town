@@ -580,6 +580,78 @@ When apartment-management gameplay is added, support:
 
 **Design rule:** Building money belongs to the property/system, not automatically to Spatz's personal wallet.
 
+### Multi-ledger economy
+
+Do not collapse every resource into "Gold."
+
+**RPG Life / Player**
+- **XP:** player progression only
+- **Gold:** game/reward currency earned from intentionally gamified goals and quests
+
+**Simulation economy**
+- **Resident Wallets:** wages, purchases, personal spending
+- **Business Accounts:** sales, wages, supplies, upkeep when business simulation is enabled
+- **Apartment Building Budget:** rent income, shared utilities, maintenance, building upgrades, management costs
+- **Town Treasury:** taxes/assessments, permit/market fees, donations/grants/scenario funds, public works spending
+
+Player Gold and town money may unlock related things, but they should not silently convert into each other.
+
+### Building-income / tax network
+
+Proposed flow:
+
+**Resident income / wallet → Rent → Apartment Building Budget**
+
+Then from the **Apartment Building Budget**:
+- maintenance reserve
+- utilities / shared services
+- repair costs
+- common-area furnishing / upgrades
+- optional staff / contractor costs
+- **town property assessment / tax**
+- remaining surplus stays with the building for reinvestment
+
+**Town Treasury receives:**
+- apartment-building property assessment
+- business/property assessments
+- market-stall or permit fees when enabled
+- optional service fees
+- grants / scenario funds / donations
+- other future civic income
+
+**Town Treasury spends on:**
+- roads / paths / lighting
+- public works and utility repairs
+- parks / square / trail maintenance
+- civic structures
+- restoration of town-owned ruins
+- service-tunnel work
+- public event costs
+- emergency / scenario response
+
+### Tax design rules
+
+- Start simple: a **flat periodic assessment** per property/business is easier to understand than a simulated tax code.
+- Taxes should be visible in the ledger before they are due.
+- The system should explain where town money goes.
+- Higher taxes should not be the default difficulty lever.
+- Town finances should create choices about **what to restore next**, not anxiety about perfect accounting.
+- Spatz does not personally pocket rent or taxes.
+- A building can be healthy even when it is not maximizing profit.
+
+**Possible later expansion:** property value, business revenue bands, exemptions, restoration grants, service fees, and scenario-specific funding.
+
+
+When apartment-management gameplay is added, support:
+- a separate **building budget**
+- **rent** paid by residents/units
+- building income and expenses
+- repairs and maintenance costs
+- shared-space upgrades/furnishings
+- clear separation between Spatz's personal money and building funds
+
+**Design rule:** Building money belongs to the property/system, not automatically to Spatz's personal wallet.
+
 ---
 
 # 10. Development order
@@ -851,6 +923,55 @@ This pattern can extend across town:
 - **Quest choice** → Guidepost Board → choose a bounded action, then return to town life
 
 The important rule is **support, not surveillance**. NPCs do not constantly ask about unfinished goals, punish missed quests, or reduce relationship scores because the player did not complete real-life work.
+
+## Town-building coverage pass
+
+The generic "video game town" checklist is useful as a coverage test, but EchoVille should adapt each role to its own modern/cozy/rediscovered identity rather than importing medieval buildings literally.
+
+### Residential coverage
+- **Apartment Building** — main first-phase housing and management gameplay.
+- **Residential Lane** — cottages/houses for later residents.
+- **Forest Outskirts residence** — Brae's self-chosen edge home.
+- **Guesthouse / Wayfarer House — ADD:** short-term lodging for newcomers, visitors, scenario characters, and residents waiting on permanent housing.
+- **Tents / temporary shelters — SCENARIO ONLY:** useful for restoration crews, events, or temporary arrivals; not a poverty class.
+- **Manor / Estate — OPTIONAL LORE:** only if an old-city or ancient property becomes interesting later.
+- **Barracks — NO DEFAULT NEED:** Training Hall can support drills/emergency readiness without militarizing the town.
+
+### Economic / production coverage
+- **Kenneth's Workshop Cottage / Repair Garage** fills the blacksmith/crafting/repair role.
+- **General Store + Market Row** fill staple goods, materials, food, and rotating vendors.
+- **The Wired Bean** fills much of the tavern/social-hub role, but does not provide lodging.
+- **Guesthouse / Wayfarer House** fills the inn/lodging role.
+- **Community Garden + small greenhouse/orchard — ADD:** local produce, gardening routines, seasonal items.
+- **Community Pantry / Root Cellar — ADD SMALL STRUCTURE:** food storage, donations, event supplies.
+- **Material Depot / Reclaim Yard** replaces the need for a quarry-heavy production chain.
+- **Lumber / salvage shed — OPTIONAL:** reclaimed timber, fallen wood, repair stock; do not add an extractive sawmill unless the simulation needs one.
+- **Quarry — SUPERSEDED / NO.**
+
+### Civic / administrative coverage
+- **Guidepost Square + Quest Board** cover the public quest/event-board role.
+- **Restoration Office / Civic House — ADD:** small administrative building for town maps, permits, public works, restoration ledger, town budget, taxes/assessments, and reopened-property records. This does **not** make Spatz the mayor.
+- **EchoVille Dispatch** covers post/courier/delivery systems.
+- **Forest Watch / Ranger Shed — OPTIONAL:** trail safety, lost-and-found, weather/trail notices; better fit than a sheriff's office for the forest setting.
+- **Prison / Stockade — NOT NEEDED** for ordinary EchoVille. Only create detention mechanics if a future scenario genuinely requires them.
+- **Utility House / Public Works Shed — ADD SMALL STRUCTURE:** power/water/maintenance access, service tunnel entry, shared tools, repair requests.
+
+### Specialized coverage
+- **Library / Academy / Digital Archive** covers education, research, study, archives, and much of the "guild knowledge hub" function.
+- **Old Stone Tower + Rooftop Garden** covers the secluded-tower silhouette without defining it as a wizard tower.
+- **Guidepost Quest Board + scenario system** covers the Adventurer's Guild function without needing a second quest building.
+- **Clinic / Apothecary — FUTURE CANDIDATE:** ordinary first aid, herbs, wellness items, and NPC routines; should remain cozy and practical rather than magical by default.
+- **Temple / Shrine — LORE CANDIDATE ONLY:** an ancient sanctuary, wayside shrine, or memorial may exist if rediscovered lore calls for it, but it is not required infrastructure.
+
+### Town-life structures now considered useful additions
+The strongest additions from this coverage pass are:
+- **Guesthouse / Wayfarer House**
+- **Restoration Office / Civic House**
+- **Community Garden + small greenhouse/orchard**
+- **Community Pantry / Root Cellar**
+- **Utility House / Public Works Shed**
+- **Forest Watch / Ranger Shed** (optional but useful)
+- **Clinic / Apothecary** (future candidate)
 
 ## What AI Town contributes to the location system
 
@@ -1304,6 +1425,43 @@ These should remain **OPEN** until we intentionally choose answers:
 # 13. Long-term platform visions
 
 These are future branches of the platform, not requirements for the base EchoVille build.
+
+## Town-builder scenario inspiration
+
+**PIN BOARD / RESEARCH DIRECTION.**
+
+The strongest town-builder references are useful for systems rather than tone-copying:
+
+- **Against the Storm-style scenario structure:** a settlement can have a defined starting state, modifiers, optional objectives, discoveries, and rewards while the underlying city-builder continues to function.
+- **Frostpunk-style authored scenario framing:** scenarios can alter the map, starting conditions, and story problems instead of merely changing quest text.
+- **Foundation-style aspirations / organic growth:** town development can remain open-ended while a scenario or aspiration gives a temporary direction.
+- **Project Highrise / The Tenants-style property management:** residents/tenants have needs, the property has operating costs, rent creates income, and improvements affect the building's value/usefulness.
+
+EchoVille should keep the cozy/non-punitive identity:
+- scenarios do not wipe the town if failed
+- unfinished scenario goals can expire, pause, or branch rather than create debt
+- scenario conditions can temporarily open, close, damage, restore, or repurpose locations
+- AI residents continue their own routines while reacting to scenario state
+- scenario-generated objective facts still obey Protected Canon and authoritative game state
+
+### Scenario package model
+
+A future scenario can define:
+- starting town state
+- participating residents
+- available / unavailable locations
+- temporary NPCs
+- objective chain
+- optional objectives
+- scenario items with real mechanical effects
+- town modifiers
+- time window if relevant
+- reward pool
+- branching outcomes
+- new memories / town-history entries
+- cleanup/end-state rules
+
+This makes scenarios feel like **story layers laid over a persistent town**, not separate disposable saves.
 
 ## Publisher / scenario-authoring vision
 **PIN BOARD.**
