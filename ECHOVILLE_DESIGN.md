@@ -280,6 +280,33 @@ Potential early uses:
 
 Keep this lightweight in the first slice unless management gameplay proves fun.
 
+
+### Apartment inventories
+**ADD:** Each apartment should have its own persistent inventory, separate from the resident's personal inventory.
+
+This lets the simulation distinguish between:
+- items carried by a resident
+- items owned by a resident but stored at home
+- shared/apartment fixtures and furnishings
+- building-owned items in common spaces
+
+Initial apartment inventories:
+- Spatz's apartment inventory
+- Chad's apartment inventory
+- Skylar's apartment inventory
+- Kevin's apartment inventory
+
+Examples of apartment inventory:
+- furniture
+- appliances
+- books/media
+- tools
+- decorations
+- stored food/supplies
+- personal belongings not currently carried
+
+**Design rule:** AI dialogue may reference apartment possessions, but code/database state remains authoritative about whether an item actually exists.
+
 ## Later world expansion
 
 These remain EchoVille destinations for later growth rather than first-map requirements:
@@ -401,6 +428,14 @@ The LLM should not need to decide every footstep.
 ### Mood/state
 - **ADD:** Lightweight temporary state/mood.
 - **OPEN:** Decide how much mood is numeric versus descriptive.
+
+
+### Inventory and currency foundation
+- **ADD:** Persistent personal inventory for each resident.
+- **ADD:** Persistent inventory for each apartment.
+- **ADD:** Currency/wallet support for residents when needed.
+- **ADD:** Building-owned inventory for shared spaces can be added when apartment management begins.
+- **RULE:** The LLM can read relevant inventory/currency facts but cannot invent, grant, spend, transfer, or delete items/money without validated game actions.
 
 ### Memory
 - **MODIFY:** Preserve objective facts separately from AI interpretations.
@@ -530,6 +565,19 @@ Later additions:
 - Annex systems
 - restoration/change over time
 - offline/catch-up simulation
+
+## Apartment management economy
+**PIN BOARD / LATER MANAGEMENT PHASE.**
+
+When apartment-management gameplay is added, support:
+- a separate **building budget**
+- **rent** paid by residents/units
+- building income and expenses
+- repairs and maintenance costs
+- shared-space upgrades/furnishings
+- clear separation between Spatz's personal money and building funds
+
+**Design rule:** Building money belongs to the property/system, not automatically to Spatz's personal wallet.
 
 ---
 
