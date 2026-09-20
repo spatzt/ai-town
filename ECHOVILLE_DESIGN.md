@@ -637,7 +637,52 @@ When apartment-management gameplay is added, support:
 
 ---
 
-# 12. Guiding principles
+# 12. Long-term platform visions
+
+These are future branches of the platform, not requirements for the base EchoVille build.
+
+## Publisher / scenario-authoring vision
+**PIN BOARD.**
+
+A future creator-facing layer could let an author package playable scenarios on top of the same simulation foundation.
+
+Potential capabilities:
+- define a scenario premise and starting world state
+- create quests for specific NPCs or the player
+- author quest stages, conditions, and outcomes
+- create real inventory items used by quests
+- give items mechanical effects rather than treating them as dialogue props
+- place or unlock items in apartments/shared spaces
+- define rewards, costs, flags, and state changes
+- script bounded events while still allowing NPC AI to react naturally
+- package scenario-specific canon without rewriting the underlying characters
+- run/replay scenarios for testing
+
+**Design principle:** authored quests establish objective rules and state; AI characters interpret and respond within those boundaries rather than inventing quest completion or items.
+
+## RPG LIFE platform vision
+**PIN BOARD.**
+
+EchoVille could also become the persistent world/interface for **RPG LIFE**.
+
+Core idea:
+- the player has a town full of familiar support characters
+- real-life goals/tasks can become bounded in-world quests or activities
+- residents can encourage, check in, celebrate progress, or provide company
+- progress in RPG LIFE can create small EchoVille state changes/rewards
+- EchoVille remains a living social space rather than turning every relationship into productivity mechanics
+
+Possible examples:
+- a cleaning task becomes a short quest/update rather than an entire town crisis
+- completing a real-world goal unlocks an item, decoration, journal entry, or building improvement
+- a resident can ask how a goal is going based on permitted RPG LIFE state
+- missed tasks do not trigger shame/punishment loops
+
+**Design principle:** the town is a support system around the player, not a surveillance or obligation system.
+
+---
+
+# 13. Guiding principles
 
 1. **Characters remain themselves.**
 2. **The town exists even when Spatz is not the center of a scene.**
