@@ -220,6 +220,30 @@ The first playable EchoVille is intentionally compact: one apartment building th
 ### Kevin's apartment
 **Purpose:** Kevin's private retreat.
 
+### Temporary-stay apartments / newcomer rooms
+**LOCKED DESIGN:** The apartment building itself provides EchoVille's temporary lodging system. A separate guesthouse is not required.
+
+Some units or rooms remain available for **temporary stays**. The player, acting through Spatz's apartment-manager role, can select an available newcomer to stay in one of these rooms while they get oriented to EchoVille.
+
+Temporary residents:
+- receive a real room assignment and apartment inventory
+- can use appropriate building common spaces
+- enter ordinary AI routines, conversations, and relationship development
+- can explore town and discover preferred locations
+- may learn about jobs, hobbies, residents, and town history during their stay
+- are not automatically made permanent residents simply because they were selected to visit
+
+Possible stay outcomes:
+- extend the stay
+- move into a permanent apartment if space and story support it
+- move elsewhere in EchoVille as new housing opens
+- choose to leave
+- appear again later through a scenario or return visit
+
+**Design rule:** selecting a newcomer controls **who is offered temporary lodging**, not their personality, relationships, choices, or eventual decision to remain.
+
+This gives otherwise-unused apartment rooms a gameplay purpose and makes the building EchoVille's natural arrival/orientation hub.
+
 ### Lobby / hallways / common seating
 **Purpose:** neutral circulation and casual social space.
 
@@ -295,6 +319,7 @@ Initial apartment inventories:
 - Chad's apartment inventory
 - Skylar's apartment inventory
 - Kevin's apartment inventory
+- temporary-stay room inventories for newcomer assignments
 
 Examples of apartment inventory:
 - furniture
@@ -579,6 +604,19 @@ When apartment-management gameplay is added, support:
 - clear separation between Spatz's personal money and building funds
 
 **Design rule:** Building money belongs to the property/system, not automatically to Spatz's personal wallet.
+
+### Newcomer intake loop
+
+A future apartment-management loop can use temporary rooms as the town's onboarding system:
+
+1. A newcomer candidate becomes available through rediscovery, referral, scenario, return visit, or town growth.
+2. Spatz can offer one available temporary room.
+3. The newcomer moves in with a limited initial inventory and ordinary autonomy.
+4. Their AI routine begins revealing where they like to spend time, who they connect with, and what kind of work or role might fit.
+5. During the stay, the town learns about them and they learn about EchoVille.
+6. A later decision can resolve into permanent housing, relocation elsewhere in town, extended stay, or departure.
+
+This should feel more like **meeting a potential new neighbor** than recruiting a unit from a menu.
 
 ### Multi-ledger economy
 
@@ -932,7 +970,8 @@ The generic "video game town" checklist is useful as a coverage test, but EchoVi
 - **Apartment Building** — main first-phase housing and management gameplay.
 - **Residential Lane** — cottages/houses for later residents.
 - **Forest Outskirts residence** — Brae's self-chosen edge home.
-- **Guesthouse / Wayfarer House — ADD:** short-term lodging for newcomers, visitors, scenario characters, and residents waiting on permanent housing.
+- **Temporary-stay apartments / newcomer rooms — LOCKED:** short-term lodging is built into the Apartment Building so vacant rooms have purpose and newcomers enter town life through the first restored hub.
+- **Separate Guesthouse / Wayfarer House — NOT NEEDED:** only revisit if town growth eventually exceeds apartment-based temporary capacity.
 - **Tents / temporary shelters — SCENARIO ONLY:** useful for restoration crews, events, or temporary arrivals; not a poverty class.
 - **Manor / Estate — OPTIONAL LORE:** only if an old-city or ancient property becomes interesting later.
 - **Barracks — NO DEFAULT NEED:** Training Hall can support drills/emergency readiness without militarizing the town.
@@ -941,7 +980,7 @@ The generic "video game town" checklist is useful as a coverage test, but EchoVi
 - **Kenneth's Workshop Cottage / Repair Garage** fills the blacksmith/crafting/repair role.
 - **General Store + Market Row** fill staple goods, materials, food, and rotating vendors.
 - **The Wired Bean** fills much of the tavern/social-hub role, but does not provide lodging.
-- **Guesthouse / Wayfarer House** fills the inn/lodging role.
+- **Temporary-stay apartments** fill the inn/lodging function for newcomers and visitors.
 - **Community Garden + small greenhouse/orchard — ADD:** local produce, gardening routines, seasonal items.
 - **Community Pantry / Root Cellar — ADD SMALL STRUCTURE:** food storage, donations, event supplies.
 - **Material Depot / Reclaim Yard** replaces the need for a quarry-heavy production chain.
@@ -965,7 +1004,6 @@ The generic "video game town" checklist is useful as a coverage test, but EchoVi
 
 ### Town-life structures now considered useful additions
 The strongest additions from this coverage pass are:
-- **Guesthouse / Wayfarer House**
 - **Restoration Office / Civic House**
 - **Community Garden + small greenhouse/orchard**
 - **Community Pantry / Root Cellar**
