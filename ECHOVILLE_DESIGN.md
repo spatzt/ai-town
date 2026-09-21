@@ -162,6 +162,7 @@ This keeps some Tomodachi-Life-style surprise without letting arbitrary randomne
 - barista, baker, cook
 - warm, observant, loyal, anxious, creative, teasing, quietly protective
 - **LOCKED:** The Wired Bean is a standalone town location outside Apartment Mode
+- **LOCKED VISUAL:** its signature feature is a skylight / glass upper-roof section
 - Kevin was pulled into the project largely because of Kyle
 - his practical response is people-centered: if people are living here, they need food, breakfast, coffee, and somewhere warm to gather
 - later work/social anchor: **The Wired Bean**
@@ -409,7 +410,7 @@ The apartment remains important after the town opens because it is:
 | --- | --- | --- | --- |
 | **Guidepost Square** | PLANNED | civic crossroads, notice/quest board, events | shared |
 | **Central Green / Fountain Park** | PLANNED | one consolidated public green/park | shared |
-| **The Wired Bean** | LOCKED DIRECTION | standalone café, food, social hub | Kevin |
+| **The Wired Bean** | LOCKED DIRECTION | standalone café, food, social hub; signature skylight/glass-roof element | Kevin |
 | **Library / Academy / Digital Archive** | LOCKED DIRECTION | library, study, records, computers, learning | Skylar |
 | **Training Hall** | LOCKED DIRECTION | training, exercise, teaching, community | Chad |
 | **EchoVille Dispatch** | LOCKED | logistics, shipments, outside-project link | Kyle |
