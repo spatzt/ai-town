@@ -128,6 +128,75 @@ Character logic should decide:
 
 This keeps some Tomodachi-Life-style surprise without letting arbitrary randomness replace characterization.
 
+## Player Phone and character switching
+
+**LOCKED DIRECTION**
+
+EchoVille does not have one permanently selected player character. Instead, the **Player Phone** is the persistent human-control layer.
+
+The player may freely switch direct control among eligible OCs. The currently controlled OC becomes the player's viewpoint/embodied character until control switches again.
+
+Core rules:
+- every resident keeps their own body, location, inventory, wallet, messages, knowledge, permissions, relationships, and memories
+- switching control never merges those states
+- switching begins at that OC's actual current location and situation; it does not teleport them
+- while directly controlled, that OC's autonomous AI is paused
+- when control leaves them, their AI resumes from the resulting world state
+- actions made while controlling an OC are real canonical actions performed by that character
+- player control bypasses the OC's autonomous decision-making, but not authoritative world rules, inventory ownership, access permissions, money limits, or Protected Canon
+
+The player should feel like they are **playing as an existing person**, not moving a universal avatar shell between sprites.
+
+### The phone as the player interface
+
+Each OC can have an ordinary in-world phone for calls/texts. When that OC is directly controlled, their phone also exposes the **Player Phone interface**.
+
+The phone should distinguish three data scopes:
+
+**Character-local**
+- current OC identity/portrait/role
+- carried inventory
+- personal wallet
+- personal messages/calls
+- schedule/job information
+- known contacts
+- keys/access they personally possess
+- character-specific condition/current state
+- personal notes/journal when appropriate
+
+**Shared town/project**
+- town map
+- public notices
+- Guidepost/Quest Board
+- town savings / Town Treasury amount
+- restoration status
+- public project updates
+- shared calendar/events
+- other information intentionally available town-wide
+
+**Role-gated**
+- Spatz: apartment/building fund, room occupancy, maintenance requests
+- Kyle: Dispatch shipments, supply requests, project/company logistics
+- Kevin: Wired Bean stock/business information
+- Kenneth: Workshop jobs, parts/materials, repair requests
+- Skylar: library/archive work information
+- Chad: Training Hall/equipment/training information
+
+The same phone shell can therefore feel different depending on who is being played.
+
+### Player-only phone layer
+
+Some phone functions are strictly for the human player and are not automatically character knowledge:
+- switch controlled character
+- save/settings
+- observer/debug tools
+- RPG Life meta interface
+- hidden simulation diagnostics if enabled
+
+These can be presented visually through the phone without implying every character understands the meta layer.
+
+**Rule:** Player UI knowledge is not automatically character knowledge.
+
 ---
 
 # 3. Cast and current roles
@@ -135,13 +204,13 @@ This keeps some Tomodachi-Life-style surprise without letting arbitrary randomne
 ## First playable core
 
 ### Spatz
-- **CURRENT:** human-controlled player resident
+- **CURRENT:** player-switchable resident
 - **CURRENT:** apartment manager
 - creative, curious, playful, observant
 - manages the building, not the people
 - has natural reasons to inspect shared spaces, notice maintenance issues, coordinate access, and meet residents
-- **LOCKED:** when the player is away, Spatz is treated as away rather than automatically AI-piloted
-- **LOCKED:** the player controls Spatz's personal currency, not everyone else's
+- when directly controlled, the player uses Spatz's own inventory, wallet, phone threads, knowledge, and apartment-manager permissions
+- when control switches away, Spatz returns to autonomous resident behavior rather than remaining the permanent protagonist
 
 ### Chad
 - strong-willed, passionate, competitive, direct, stubborn, dependable
@@ -611,10 +680,10 @@ Job learning must never silently overwrite Protected Canon.
 
 **LOCKED DIRECTION**
 
-Social nudges and off-location coordination should happen through an in-world cellphone/text system.
+Every resident may use an in-world phone for communication. The currently controlled resident's device also becomes the **Player Phone** interface described in the core architecture.
 
 Residents may:
-- text/call Spatz
+- text/call the currently controlled character
 - text/call other residents
 - catch up
 - ask to meet
@@ -622,11 +691,13 @@ Residents may:
 - coordinate errands or work
 - follow up after earlier events
 
+Message history belongs to the participants in that thread. Switching characters changes which private threads the player can naturally access.
+
 This directly helps the town avoid becoming socially quiet just because characters are not already standing together.
 
 ## Player suggestions
 
-Spatz influences socially rather than puppeting.
+The currently controlled OC influences others socially rather than puppeting them.
 
 Examples:
 - coffee?
@@ -670,6 +741,8 @@ Possible modes:
 RPG Life is no longer merely a distant pin-board idea. It is a **core long-term layer** around the town, added after the base simulation is visibly working.
 
 The town remains a social world first. RPG Life should support the player without turning every relationship into productivity mechanics.
+
+The Player Phone can borrow the existing RPG Life **Character** pattern: a character record/viewpoint with identity, title/role, condition, current arc/state, values/purpose, linked tasks/journal/rewards, and derived progression fields. EchoVille should adapt that idea into a **roster of character contexts** rather than one permanently selected protagonist.
 
 ## Dual progression
 
@@ -766,11 +839,11 @@ Do not collapse every number into Gold.
 - **Town Treasury** — assessments/taxes, fees, grants, public spending
 - **Research/Company Funding** — external project money, grants, formal contracts, startup support
 
-**LOCKED:** Spatz's personal wallet is separate from the building fund and town treasury.
+**LOCKED:** every resident's personal wallet is separate from household, business, building, town, and company funds.
 
-**LOCKED:** the player controls Spatz's money, not NPC wallets.
+**LOCKED:** direct control gives the player access to the **currently controlled character's** wallet and inventory only. Switching characters changes the active personal context; it does not merge ownership.
 
-NPCs may make their own purchases through validated game actions.
+Residents who are not directly controlled may make their own purchases through validated AI/game actions.
 
 Gold should not silently convert into ordinary town money.
 
@@ -1169,8 +1242,10 @@ Still need to lock against the actual engine:
 The first successful EchoVille slice is intentionally smaller than the full town.
 
 Include:
-- Spatz as human player/apartment manager
-- Chad, Skylar, Kevin as autonomous AI residents
+- Spatz, Chad, Skylar, and Kevin as resident characters
+- a first working Player Phone / active-character context
+- direct-control switching among the core residents, or a minimal version of the switch system if needed for the first slice
+- non-controlled residents remain autonomous AI residents
 - private apartments
 - lobby/halls/common seating
 - Building Gym
@@ -1195,8 +1270,8 @@ Without hand-authoring the scene:
 4. Residents cross naturally in halls/common spaces.
 5. NPCs initiate a character-appropriate conversation without Spatz.
 6. Later dialogue can reference earlier interaction.
-7. Spatz can participate without becoming the center of every relationship.
-8. When Spatz is away, town life can continue/catch up without AI puppeting her.
+7. The player can switch viewpoint/control without moving inventories, money, messages, or knowledge between characters.
+8. A character released from direct control resumes autonomous life from the state the player left them in.
 
 ---
 
@@ -1210,7 +1285,7 @@ Without hand-authoring the scene:
 
 ## Milestone 1 — Visible EchoVille reskin
 - EchoVille-facing identity
-- Spatz as player
+- one directly controllable resident
 - first custom sprite
 - first visible map/location change
 
@@ -1220,14 +1295,17 @@ Without hand-authoring the scene:
 - lobby/common circulation
 - gym
 - computer space
-- simple character-aware routines
+- Player Phone shell
+- active-character switch
+- character-bound inventory/wallet/message context
+- simple character-aware routines for non-controlled residents
 
 ## Milestone 3 — Communication and social life
-- cellphone/text system
+- resident cellphone/text system
 - NPC-to-NPC calls/texts
-- player nudges through phone
+- player nudges through the current character's phone
 - relationship/personality-aware invitations
-- away-state handling for Spatz
+- clean AI resume when direct control switches away from a character
 
 ## Milestone 4 — EchoVille memory
 - Protected Canon
@@ -1268,6 +1346,8 @@ Without hand-authoring the scene:
 Keep these intentionally unresolved until they matter:
 
 - How long does the town simulate while nobody is watching?
+- Which residents are eligible for direct player switching immediately, and can that roster ever be restricted by scenario/story state?
+- Should switching be instantaneous from the Player Phone, or require a safe/idle state during conversations and scripted events?
 - How much off-screen NPC conversation can the player inspect?
 - Separate interior maps vs seamless zones?
 - Exact first values for Project Awareness and Meta Awareness?
@@ -1294,11 +1374,11 @@ Important answers must not emerge accidentally from incidental AI dialogue.
 # 19. Guiding principles
 
 1. **Characters remain themselves.**
-2. **The town exists when Spatz is not the center of the scene.**
+2. **There is no permanently privileged protagonist; direct control can move between eligible OCs.**
 3. **Code owns physical reality; AI supplies interpretation, dialogue, and bounded choice.**
 4. **Memory is not automatically truth.**
 5. **Locations have semantic purpose.**
-6. **Player influence is social, not omnipotent.**
+6. **Direct control changes viewpoint and agency, not ownership, knowledge, or world authority.**
 7. **Randomness creates opportunities, not arbitrary characterization.**
 8. **The town is a home first and a quest system second.**
 9. **RPG Life supports the player; it does not punish missed life tasks.**
