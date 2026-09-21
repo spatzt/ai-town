@@ -507,6 +507,70 @@ The LLM should not need to decide every footstep.
 - **ADD:** Building-owned inventory for shared spaces can be added when apartment management begins.
 - **RULE:** The LLM can read relevant inventory/currency facts but cannot invent, grant, spend, transfer, or delete items/money without validated game actions.
 
+#### Portable inventory organization — Pokémon-inspired
+
+EchoVille should use a **category-pocket UI** for carried and stored items rather than one long unsorted list.
+
+Suggested portable/storage categories:
+- Food & Drinks
+- Medicine / Care
+- Tools
+- Materials / Parts
+- Gifts & Personal Items
+- Books / Documents / Media
+- Key / Story Items
+- Scenario / Quest Items
+- Miscellaneous
+
+Important behavior:
+- category is a presentation/organization layer; the authoritative item still has one definition and one current location
+- Key / Story Items should be protected from accidental sale/disposal
+- scenario items can be scoped to a scenario while still existing as real world-state objects
+- common stackable supplies can use quantities; meaningful or unique objects can have individual item instances and provenance
+- residents may organize the same underlying inventory differently in UI without duplicating items
+
+#### Placeable furniture / Build-Buy — Sims-inspired
+
+Furniture and fixtures should not behave like ordinary pocket items once placed. EchoVille should treat them as **placeable world objects** connected to a property, room, household, business, or public location.
+
+Furniture flow:
+**catalog / purchase / reward / salvage → property storage → place in room → becomes usable world object**
+
+A furnishing can contain:
+- owner / owning household or organization
+- current property + room
+- footprint / placement rules
+- orientation
+- condition
+- style / visual variant
+- value
+- storage contents if it is a container
+- interaction / activity tags
+- optional comfort, privacy, social, work, fun, study, cooking, sleep, or decoration effects
+
+Examples:
+- bed → sleep / rest
+- sofa → sit / talk / read / relax
+- desk → study / write / draw / computer use depending on attached objects
+- bookshelf → read / browse
+- dining table → eat / talk
+- stove → cook
+- game console + TV → play / invite someone to play
+- workbench → repair / craft
+- coffee equipment → make drink
+- storage cabinet → moves items into room/property storage
+
+**Core rule:** furniture should create **AI affordances**. Placing or removing an object can change what residents are able or likely to do in that room.
+
+#### Three physical object states
+
+For implementation, distinguish:
+1. **Portable item** — can be carried/transferred/stored in item inventories.
+2. **Placeable furnishing** — can be stored as an object, then placed into a room where it gains position and interactions.
+3. **Fixture / property object** — part of the building/location itself; moved or replaced only through management/build mode.
+
+This lets a lamp, couch, stove, recovered sign, and Annex key all use the same authoritative item/object system without pretending they belong in the same backpack slot.
+
 ### Memory
 - **MODIFY:** Preserve objective facts separately from AI interpretations.
 - **MODIFY:** Each character retrieves only information they legitimately know.
